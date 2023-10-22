@@ -1,8 +1,8 @@
 class Login {
-  int? code;
+  var code;
   bool? status;
-  String? token;
-  int? userID;
+  var token;
+  var userID;
   String? userEmail;
   Login({this.code, this.status, this.token, this.userID, this.userEmail});
 
